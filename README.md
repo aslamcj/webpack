@@ -86,8 +86,9 @@ module.exports = {
 
 	after installation run command in cli > webpack-dev-server
 	
-	webpack-dev-server --inline		// incase if auto reload is not working in browser
-```
+	webpack-dev-server --inline		
+	incase if auto reload is not working in browser
+	```
 5) Building with multiple files and loading modules
 	a) Create new files, lets says "login.js" and "util.js" in same directory
 	b) To load login.js inside the app.js, use the following common js method
@@ -95,7 +96,7 @@ module.exports = {
 		require("./login");
     ```
 	c) To add a util.js as a independent module modify "entry" property to array in "webpack.config.js" file.
-    ```
+   		 ```
 			entry: ["./util","./app.js"]
 		```	
 	d) When ever "webpack.config.js" file is modified need to restart the "webpack-dev-server".
