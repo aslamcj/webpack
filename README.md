@@ -1,8 +1,8 @@
 # Webpack Notes
-Request & Response
-multiple request between server and clinet
 
-Code Size
+- Request & Response
+- multiple request between server and clinet
+- Code Size
 - removing spacings by minification
 - refactoring code by replacing names
 - file order dependencies - modules system or angular
