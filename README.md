@@ -1,4 +1,4 @@
-# Webpack Tutorial
+# Webpack Notes
 Request & Response
 multiple request between server and clinet
 
